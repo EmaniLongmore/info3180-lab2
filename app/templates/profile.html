@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="profile-card">
+    <img src="{{ url_for('static', filename='Image/profilepic.png') }}" alt="Profile Picture" class="profile-img">
+    <div class="profile-name">Emani Longmore</div>
+    <div class="profile-username">@EmaniLongmore</div>
+    <div class="profile-location">Kingston, Jamaica</div>
+    <div class="profile-joined">Joined February, 2025</div>
+    <p class="profile-bio">
+        Passionate developer and tech enthusiast. I love building web applications and exploring new technologies.
+        Let's connect and create something amazing together!
+    </p>
+    
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-number">12</div>
+            <div class="stat-label">Posts</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number">200</div>
+            <div class="stat-label">Following</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number">450</div>
+            <div class="stat-label">Followers</div>
+        </div>
+    </div>
+
+    <button class="follow-btn">Follow</button>
+</div>
+{% endblock %}

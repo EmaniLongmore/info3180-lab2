@@ -1,3 +1,90 @@
 body {
-    padding-top: 5rem;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    background: linear-gradient(to bottom, #1E90FF, #00BFFF);
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+}
+
+.profile-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.profile-username {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.profile-location, .profile-joined {
+    font-size: 13px;
+    opacity: 0.9;
+    margin-top: 5px;
+}
+
+.profile-bio {
+    font-size: 14px;
+    margin: 15px 0;
+    color: #eee;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stat-label {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.follow-btn {
+    background-color: #fff;
+    color: #1E90FF;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.follow-btn:hover {
+    background-color: #e3f2fd;
 }
